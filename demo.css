@@ -1,0 +1,23 @@
+:root {
+	--primary-color: #323156;
+}
+
+.demo-container {
+	max-width: 680px;
+	margin: 0 auto;
+	padding: 1em 2em;
+}
+
+header {
+	background: var(--primary-color);
+	color: white;
+	padding: 3em 0;
+	-webkit-box-shadow: 0 7px 20px 3px rgba(50, 49, 86, 0.2);
+  -ms-box-shadow: 0 7px 20px 3px rgba(50, 49, 86, 0.2);
+  box-shadow: 0 7px 20px 3px rgba(50, 49, 86, 0.2);
+}
+
+.logo {
+	text-align: center;
+	font-size: 42px;
+}
