@@ -1,0 +1,32 @@
+button
+  text-align: center
+  outline: none
+  border: none
+  -webkit-appearance: none
+  padding: 0.75rem 1.75rem
+  cursor: pointer
+  border-radius: 8px
+
+.btn-primary
+  color: white
+  background: $primary-color
+  +prefixer(box-shadow, 0 4px 7px 0 $primary-opacity-color)
+  +prefixer(transition, all .3s)
+  &:hover
+    +prefixer(box-shadow, 0 4px 10px 3px $primary-opacity-color)
+    +prefixer(transition, all .3s)
+  &:active
+    +prefixer(box-shadow, 0 2px 3px 0 $primary-opacity-color)
+    +prefixer(transition, all .2s)
+
+.btn-secondary
+  color: white
+  background: $secondary-color
+  +prefixer(box-shadow, 0 4px 7px 0 $secondary-opacity-color)
+  +prefixer(transition, all .3s)
+  &:hover
+    +prefixer(box-shadow, 0 4px 10px 3px $secondary-opacity-color)
+    +prefixer(transition, all .3s)
+  &:active
+    +prefixer(box-shadow, 0 2px 3px 0 $secondary-opacity-color)
+    +prefixer(transition, all .2s)

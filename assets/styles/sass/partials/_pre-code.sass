@@ -1,0 +1,36 @@
+pre
+  font-family: $font-family-monospace
+  color: $light-color
+  background: $dark-color
+  border-radius: 7px
+  white-space: pre-line
+  padding: 1em 1.25em
+  margin: 0.75em 0 2em
+  counter-reset: line
+  overflow-x: auto
+  +prefixer(box-shadow, 0 7px 20px 3px $primary-opacity-color)
+  &::-webkit-scrollbar-track
+    background: rgba(0, 0, 0, .1)
+    border-radius: 0 0 7px 7px
+  &::-webkit-scrollbar
+    height: 7px
+    background-color: inherit
+    border-radius: 0 0 7px 7px
+  &::-webkit-scrollbar-thumb
+    border-radius: 0 0 7px 7px
+    background-color: $secondary-color
+
+code
+	font-size: 14px
+	word-break: break-all
+	word-wrap: break-word
+	white-space: pre
+	white-space: -moz-pre
+	white-space: pre
+	white-space: pre\9
+	counter-increment: line
+	&:before
+		content: counter(line)
+		padding: 0 .25em
+		margin-right: .25em
+		color: $secondary-color
