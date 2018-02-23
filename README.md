@@ -8,6 +8,6 @@ $ git clone https://github.com/tunguskha/sassted
 ```
 
 ### Import
-```
+```html
 <link rel="stylesheet" type="text/css" href="sassted.min.css">
 ```
