@@ -13,7 +13,7 @@ $ git clone https://github.com/tunguskha/Sassted
 
 ### Import
 ```html
-<link rel="stylesheet" type="text/css" href="sassted.min.css">
+<link rel="stylesheet" type="text/css" href="assets/styles/css/sassted.min.css">
 ```
 
 ---
