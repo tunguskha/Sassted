@@ -34,7 +34,7 @@ Sassted
 |       |   └── grid.css
 |       |   └── normalize.css
 |       |   └── sassted.css
-|       |   └── sassted.css
+|       |   └── sassted.map.css
 |       |   └── sassted.min.css
 |       └── 📂 sass
 |           └── 📂 partials
