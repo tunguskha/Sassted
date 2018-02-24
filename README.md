@@ -34,14 +34,14 @@ Sassted
 |       |   └── grid.css
 |       |   └── normalize.css
 |       |   └── sassted.css
-|       |   └── sassted.css.css
-|       |   └── sassted.min.css
+|       |   └── sassted.css
+|       |   └── sassted.min.css
 |       └── 📂 sass
 |           └── 📂 partials
 |           |   └── 📂 variables
 |           |   |   └── _colors.sass
-|           |   |   └── _typography.sass.sass
-|           |   └── _blockquote.sass
+|           |   |   └── _typography.sass
+|           |   └── _blockquote.sass
 |           |   └── _buttons.sass
 |           |   └── _init.sass
 |           |   └── _mixins.sass
