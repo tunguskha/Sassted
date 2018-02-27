@@ -2,7 +2,7 @@ pre
   font-family: $font-family-monospace
   color: $light-color
   background: $dark-color
-  border-radius: 7px
+  border-radius: 4px
   white-space: pre-line
   padding: 1em 1.25em
   margin: 0.75em 0 2em
@@ -15,22 +15,22 @@ pre
   &::-webkit-scrollbar
     height: 7px
     background-color: inherit
-    border-radius: 0 0 7px 7px
+    border-radius: 0 0 4px 4px
   &::-webkit-scrollbar-thumb
-    border-radius: 0 0 7px 7px
+    border-radius: 0 0 4px 4px
     background-color: $secondary-color
 
 code
-	font-size: 14px
-	word-break: break-all
-	word-wrap: break-word
-	white-space: pre
-	white-space: -moz-pre
-	white-space: pre
-	white-space: pre\9
-	counter-increment: line
-	&:before
-		content: counter(line)
-		padding: 0 .25em
-		margin-right: .25em
-		color: $secondary-color
+  font-size: 14px
+  word-break: break-all
+  word-wrap: break-word
+  white-space: pre
+  white-space: -moz-pre
+  white-space: pre
+  white-space: pre\9
+  counter-increment: line
+  &:before
+    content: counter(line)
+    padding: 0 .25em
+    margin-right: .5em
+    color: $secondary-color

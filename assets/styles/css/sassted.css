@@ -1,5 +1,5 @@
 html, :root {
-  --primary-color: #415BA5;
+  --primary-color: #5966d2;
   --primary-color-rgb: 65, 91, 165;
   --secondary-color: #FDAD18;
   --secondary-color-rgb: 233, 172, 49;
@@ -83,8 +83,10 @@ button {
   border: none;
   -webkit-appearance: none;
   padding: 0.75rem 1.75rem;
+  height: 2.75em;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 4px;
+  display: inline-block; }
 
 .btn-primary {
   color: white;
@@ -172,7 +174,7 @@ pre {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   color: var(--light-color);
   background: var(--dark-color);
-  border-radius: 7px;
+  border-radius: 4px;
   white-space: pre-line;
   padding: 1em 1.25em;
   margin: 0.75em 0 2em;
@@ -189,9 +191,9 @@ pre {
   pre::-webkit-scrollbar {
     height: 7px;
     background-color: inherit;
-    border-radius: 0 0 7px 7px; }
+    border-radius: 0 0 4px 4px; }
   pre::-webkit-scrollbar-thumb {
-    border-radius: 0 0 7px 7px;
+    border-radius: 0 0 4px 4px;
     background-color: var(--secondary-color); }
 
 code {
@@ -206,7 +208,7 @@ code {
   code:before {
     content: counter(line);
     padding: 0 .25em;
-    margin-right: .25em;
+    margin-right: .5em;
     color: var(--secondary-color); }
 
 /*# sourceMappingURL=sassted.css.map */
