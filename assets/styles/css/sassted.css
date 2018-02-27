@@ -8,6 +8,30 @@ html, :root {
   --dark-color: #3F4253;
   --dark-color-rgb: 66, 68, 63; }
 
+h1 {
+  font-size: 36px;
+  line-height: 1.4; }
+
+h2 {
+  font-size: 32px;
+  line-height: 1.12; }
+
+h3 {
+  font-size: 28px;
+  line-height: 0.93333; }
+
+h4 {
+  font-size: 24px;
+  line-height: 0.8; }
+
+h5 {
+  font-size: 20px;
+  line-height: 0.7; }
+
+h6 {
+  font-size: 16px;
+  line-height: 0.50909; }
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -172,7 +196,6 @@ blockquote {
   background: var(--light-color); }
 
 pre {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   color: var(--light-color);
   background: var(--dark-color);
   border-radius: 4px;
@@ -198,6 +221,7 @@ pre {
     background-color: var(--primary-color); }
 
 code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
   word-break: break-all;
   word-wrap: break-word;
