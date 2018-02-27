@@ -26,6 +26,57 @@ body {
   line-height: 1.4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.float-none {
+  float: none; }
+
+.clear {
+  clear: both; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.hiden, .hide, .none, .invisible {
+  display: none;
+  visibility: hidden; }
+
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
 button {
   text-align: center;
   outline: none;
@@ -157,3 +208,5 @@ code {
     padding: 0 .25em;
     margin-right: .25em;
     color: var(--secondary-color); }
+
+/*# sourceMappingURL=sassted.css.map */
