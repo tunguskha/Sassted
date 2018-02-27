@@ -86,7 +86,8 @@ button {
   height: 2.75em;
   cursor: pointer;
   border-radius: 4px;
-  display: inline-block; }
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent; }
 
 .btn-primary {
   color: white;
@@ -194,7 +195,7 @@ pre {
     border-radius: 0 0 4px 4px; }
   pre::-webkit-scrollbar-thumb {
     border-radius: 0 0 4px 4px;
-    background-color: var(--secondary-color); }
+    background-color: var(--primary-color); }
 
 code {
   font-size: 14px;
