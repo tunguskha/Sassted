@@ -13,23 +13,23 @@ button
 .btn-primary
   color: white
   background: $primary-color
-  +prefixer(box-shadow, 0 4px 7px 0 #{'rgba(var(--primary-color-rgb), 0.3)'})
+  +prefixer(box-shadow, 0 4px 7px 0 rgba($primary-color-base, 0.3))
   +prefixer(transition, all .3s)
   &:hover
-    +prefixer(box-shadow, 0 4px 10px 3px #{'rgba(var(--primary-color-rgb), 0.4)'})
+    +prefixer(box-shadow, 0 4px 10px 3px rgba($primary-color-base, 0.4))
     +prefixer(transition, all .3s)
   &:active
-    +prefixer(box-shadow, 0 2px 3px 0 #{'rgba(var(--primary-color-rgb), 0.4)'})
+    +prefixer(box-shadow, 0 2px 3px 0 rgba($primary-color-base, 0.4))
     +prefixer(transition, all .2s)
 
 .btn-secondary
   color: white
   background: $secondary-color
-  +prefixer(box-shadow, 0 4px 7px 0 #{'rgba(var(--secondary-color-rgb), 0.4)'})
+  +prefixer(box-shadow, 0 4px 7px 0 rgba($secondary-color-base, 0.4))
   +prefixer(transition, all .3s)
   &:hover
-    +prefixer(box-shadow, 0 4px 10px 3px #{'rgba(var(--secondary-color-rgb), 0.4)'})
+    +prefixer(box-shadow, 0 4px 10px 3px rgba($secondary-color-base, 0.4))
     +prefixer(transition, all .3s)
   &:active
-    +prefixer(box-shadow, 0 2px 3px 0 #{'rgba(var(--secondary-color-rgb), 0.4)'})
+    +prefixer(box-shadow, 0 2px 3px 0 rgba($secondary-color-base, 0.4))
     +prefixer(transition, all .2s)

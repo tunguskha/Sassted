@@ -1,17 +1,50 @@
-// css var
+// Base color variables
+$primary-color-base: #5966d2
+$primary-color-lighten-base: lighten($primary-color-base, 10%)
+$primary-color-darken-base: darken($primary-color-base, 10%)
+
+$secondary-color-base: #FDAD18
+$secondary-color-lighten-base: lighten($secondary-color-base, 10%)
+$secondary-color-darken-base: darken($secondary-color-base, 10%)
+
+$text-color-base: #50596c
+$text-color-lighten-base: lighten($text-color-base, 30%)
+$text-color-darken-base: darken($text-color-base, 30%)
+
+$white-color-base: #ffffff
+$light-color-base: #efefef
+$dark-color-base: #3F4253
+
+
+// Transform base Sass var to CSS var
 html, :root
-  --primary-color: #5966d2
-  --primary-color-rgb: 65, 91, 165
-  --secondary-color: #FDAD18
-  --secondary-color-rgb: 233, 172, 49
+  --white-color: $white-color-base
+  --primary-color: $primary-color-base
+  --primary-color-lighten: $primary-color-lighten-base
+  --primary-color-darken: $primary-color-darken-base
 
-  --light-color: #efefef
-  --light-color-rgb: 239, 239, 239
-  --dark-color: #3F4253
-  --dark-color-rgb: 66, 68, 63
+  --secondary-color: $secondary-color-base
+  --secondary-color-lighten: $secondary-color-lighten-base
+  --secondary-color-darken: $secondary-color-darken-base
 
-// sass var
+  --text-color: $text-color-base
+  --text-color-lighten: $text-color-lighten-base
+  --text-color-darken: $text-color-darken-base
+
+
+// Appeling transformed Sass var from CSS var
 $primary-color: var(--primary-color)
+$primary-color-lighten: var(--primary-color-lighten)
+$primary-color-darken: var(--primary-color-darken)
+
 $secondary-color: var(--secondary-color)
+$secondary-color-lighten: var(--secondary-color-lighten)
+$secondary-color-darken: var(--secondary-color-darken)
+
+$text-color: var(--text-color)
+$text-color-lighten: var(--text-color-lighten)
+$text-color-darken: var(--text-color-darken)
+
+$white-color: var(--white-color)
 $light-color: var(--light-color)
 $dark-color: var(--dark-color)

@@ -1,26 +1,26 @@
 pre
-  color: $light-color
-  background: $dark-color
+  font-family: $font-family-monospace
+  color: $light-color-base
+  background: $dark-color-base
   border-radius: 4px
   white-space: pre-line
   padding: 1em 1.25em
   margin: 0.75em 0 2em
   counter-reset: line
   overflow-x: auto
-  +prefixer(box-shadow, 0 7px 20px 3px #{'rgba(var(--dark-color-rgb), .4)'})
+  +prefixer(box-shadow, 0 7px 20px 3px rgba($dark-color-base, .4))
   &::-webkit-scrollbar-track
-    background: #{'rgba(var(--dark-color-rgb), 0.1)'}
+    background: rgba($dark-color-base, .1)
     border-radius: 0 0 7px 7px
   &::-webkit-scrollbar
     height: 7px
     background-color: inherit
-    border-radius: 0 0 4px 4px
+    border-radius: 0 0 7px 7px
   &::-webkit-scrollbar-thumb
-    border-radius: 0 0 4px 4px
-    background-color: $primary-color
+    border-radius: 0 0 7px 7px
+    background-color: $secondary-color
 
 code
-  font-family: $font-family-monospace
   font-size: 14px
   word-break: break-all
   word-wrap: break-word
