@@ -222,7 +222,7 @@ button {
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s; }
-  .btn-secondary:hover:after {
+  .btn-secondary:hover::after {
     width: 100%;
     bottom: -5px;
     left: 0;
@@ -231,7 +231,7 @@ button {
     -moz-filter: blur(4px);
     -ms-filter: blur(4px);
     -o-filter: blur(4px); }
-  .btn-secondary:active:after {
+  .btn-secondary:active::after {
     filter: blur(10px);
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
@@ -252,7 +252,7 @@ button {
     background: #efefef; }
 
 @supports (-ms-ime-align: auto) {
-  button:after, button:hover, button:active {
+  button::after, button:hover, button:active {
     display: none; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -261,7 +261,7 @@ button {
     background: -webkit-linear-gradient(left, #7f00ff, #e100ff);
     background: -o-linear-gradient(left, #7f00ff, #e100ff);
     background: linear-gradient(to right, #7f00ff, #e100ff); }
-    button:after, button:hover, button:active {
+    button::after, button:hover, button:active {
       display: none; } }
 
 blockquote {

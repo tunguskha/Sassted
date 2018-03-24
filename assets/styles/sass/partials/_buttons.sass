@@ -70,13 +70,13 @@ button
     +prefixer(filter, blur(6px))
     +prefixer(transition, all .2s)
   &:hover
-    &:after
+    &::after
       width: 100%
       bottom: -5px
       left: 0
       +prefixer(filter, blur(4px))
   &:active
-    &:after
+    &::after
       +prefixer(filter, blur(10px))
 
 .btn-secondary-flat
@@ -95,12 +95,12 @@ button
 // Delete shadow for IE and Edge
 @supports (-ms-ime-align: auto)
   button
-    &:after, &:hover, &:active
+    &::after, &:hover, &:active
       display: none
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
   button
     // For IE (does not support var) //
     background: linear-gradient(to right, #7f00ff, #e100ff)
-    &:after, &:hover, &:active
+    &::after, &:hover, &:active
       display: none
