@@ -95,12 +95,12 @@ button
 // Delete shadow for IE and Edge
 @supports (-ms-ime-align: auto)
   button
-    &::after, &:hover, &:active
+    &::after, &:hover::after, &:active::after
       display: none
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
   button
     // For IE (does not support var) //
     background: linear-gradient(to right, #7f00ff, #e100ff)
-    &::after, &:hover, &:active
+    &::after, &:hover::after, &:active::after
       display: none

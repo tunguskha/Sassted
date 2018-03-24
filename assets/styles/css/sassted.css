@@ -252,7 +252,7 @@ button {
     background: #efefef; }
 
 @supports (-ms-ime-align: auto) {
-  button::after, button:hover, button:active {
+  button::after, button:hover::after, button:active::after {
     display: none; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -261,7 +261,7 @@ button {
     background: -webkit-linear-gradient(left, #7f00ff, #e100ff);
     background: -o-linear-gradient(left, #7f00ff, #e100ff);
     background: linear-gradient(to right, #7f00ff, #e100ff); }
-    button::after, button:hover, button:active {
+    button::after, button:hover::after, button:active::after {
       display: none; } }
 
 blockquote {
