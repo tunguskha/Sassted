@@ -1,6 +1,7 @@
 # Get Sassted !
 
 Working on a personal framework based on Sass.
+❗️ IE DOES NOT SUPPORT CSS VARIABLES ❗️
 
 ---
 
