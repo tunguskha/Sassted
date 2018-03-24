@@ -36,7 +36,7 @@ Sassted
 |       |   └── grid.css
 |       |   └── normalize.css
 |       |   └── sassted.css
-|       |   └── sassted.map.css
+|       |   └── sassted.css.map
 |       |   └── sassted.min.css
 |       └── 📂 sass
 |           └── 📂 partials
@@ -49,7 +49,6 @@ Sassted
 |           |   └── _mixins.sass
 |           |   └── _pre-code.sass
 |           |   └── _utilities.sass
-|           |   └── _variables.sass
 |           └── sassted.sass
 |           
 └── .gitignore
