@@ -99,8 +99,13 @@ button
       display: none
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-  button
+  .button-primary
     // For IE (does not support var) //
     background: linear-gradient(to right, #7f00ff, #e100ff)
+    &::after, &:hover::after, &:active::after
+      display: none
+  .button-secondary
+    // For IE (does not support var) //
+    background: linear-gradient(to right, #FDAD18, #FC8888)
     &::after, &:hover::after, &:active::after
       display: none

@@ -256,12 +256,19 @@ button {
     display: none; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  button {
+  .button-primary {
     background: -webkit-gradient(linear, left top, right top, from(#7f00ff), to(#e100ff));
     background: -webkit-linear-gradient(left, #7f00ff, #e100ff);
     background: -o-linear-gradient(left, #7f00ff, #e100ff);
     background: linear-gradient(to right, #7f00ff, #e100ff); }
-    button::after, button:hover::after, button:active::after {
+    .button-primary::after, .button-primary:hover::after, .button-primary:active::after {
+      display: none; }
+  .button-secondary {
+    background: -webkit-gradient(linear, left top, right top, from(#FDAD18), to(#FC8888));
+    background: -webkit-linear-gradient(left, #FDAD18, #FC8888);
+    background: -o-linear-gradient(left, #FDAD18, #FC8888);
+    background: linear-gradient(to right, #FDAD18, #FC8888); }
+    .button-secondary::after, .button-secondary:hover::after, .button-secondary:active::after {
       display: none; } }
 
 blockquote {
