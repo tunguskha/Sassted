@@ -139,7 +139,7 @@ button {
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s; }
-  .btn-primary:after {
+  .btn-primary::after {
     content: '';
     position: absolute;
     z-index: -1;
@@ -163,7 +163,7 @@ button {
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s; }
-  .btn-primary:hover:after {
+  .btn-primary:hover::after {
     width: 100%;
     bottom: -5px;
     left: 0;
@@ -172,7 +172,7 @@ button {
     -moz-filter: blur(4px);
     -ms-filter: blur(4px);
     -o-filter: blur(4px); }
-  .btn-primary:active:after {
+  .btn-primary:active::after {
     filter: blur(10px);
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
@@ -198,7 +198,7 @@ button {
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s; }
-  .btn-secondary:after {
+  .btn-secondary::after {
     content: '';
     position: absolute;
     z-index: -1;

@@ -21,7 +21,7 @@ button
   color: $white-color
   +gradient-primary
   +prefixer(transition, all .2s)
-  &:after
+  &::after
     content: ''
     position: absolute
     z-index: -1
@@ -35,13 +35,13 @@ button
     +prefixer(filter, blur(6px))
     +prefixer(transition, all .2s)
   &:hover
-    &:after
+    &::after
       width: 100%
       bottom: -5px
       left: 0
       +prefixer(filter, blur(4px))
   &:active
-    &:after
+    &::after
       +prefixer(filter, blur(10px))
 
 .btn-primary-flat
@@ -56,7 +56,7 @@ button
   color: $white-color
   +gradient-secondary
   +prefixer(transition, all .2s)
-  &:after
+  &::after
     content: ''
     position: absolute
     z-index: -1
