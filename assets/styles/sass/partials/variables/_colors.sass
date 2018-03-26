@@ -1,6 +1,11 @@
 // Brand colors
 $brand-color-primary: #5887f5 !default
+$brand-color-primary-darken: darken(#5887f5, 15%) !default
+$brand-color-primary-lighten: lighten(#5887f5, 15%) !default
+
 $brand-color-secondary: #e3125c !default
+$brand-color-secondary-darken: darken(#e3125c, 15%) !default
+$brand-color-secondary-lighten: lighten(#e3125c, 15%) !default
 
 // Content colors (text)
 $content-color-default: #17334f !default
@@ -20,8 +25,17 @@ $theme-color-3: darken($theme-color-0, 20%) !default
 // Brand colors Classes
 .brand-color-primary
   background: $brand-color-primary
+.brand-color-primary-darken
+  background: $brand-color-primary-darken
+.brand-color-primary-lighten
+  background: $brand-color-primary-lighten
+
 .brand-color-secondary
   background: $brand-color-secondary
+.brand-color-secondary-darken
+  background: $brand-color-secondary-darken
+.brand-color-secondary-lighten
+  background: $brand-color-secondary-lighten
 
 // Content colors Classes
 .content-color-default

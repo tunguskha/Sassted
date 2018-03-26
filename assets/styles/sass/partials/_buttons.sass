@@ -1,0 +1,57 @@
+// Buttons
+button, .btn
+  font-size: 16px
+  line-height: $line-height-base
+  font-size: $font-size-base
+  position: relative
+  outline: none
+  border: none
+  -webkit-appearance: none
+  -webkit-tap-highlight-color: transparent
+  cursor: pointer
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  padding: 0.75em 1.75em
+  margin: 10px 0
+  border-radius: 50px
+  display: inline-block
+  color: $content-color-subtle
+  background: $theme-color-1
+  +prefixer(transition, all .3s)
+  &:hover
+    background: $content-color-nonessential
+
+.btn-primary
+  color: $theme-color-0
+  background: $brand-color-primary
+  &:hover
+    background: $brand-color-primary-darken
+
+.btn-secondary
+  color: $theme-color-0
+  background: $brand-color-secondary
+  &:hover
+    background: $brand-color-secondary-darken
+
+a.btn, a.btn-primary, a.btn-secondary, button > a, a > button
+  text-decoration: none
+
+
+// Links
+a
+  text-decoration: underline
+  color: $brand-color-primary
+  +prefixer(transition, all .2s)
+  &:hover
+    color: $brand-color-primary-lighten
+  &.link-secondary
+    color: $brand-color-secondary
+    &:hover
+      color: $brand-color-secondary-lighten
+
+p > a
+  color: $content-color-subtle
+  &:hover
+    color: $brand-color-primary

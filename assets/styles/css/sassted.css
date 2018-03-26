@@ -621,8 +621,20 @@ table {
 .brand-color-primary {
   background: #5887f5; }
 
+.brand-color-primary-darken {
+  background: #1053f1; }
+
+.brand-color-primary-lighten {
+  background: #a0bbf9; }
+
 .brand-color-secondary {
   background: #e3125c; }
+
+.brand-color-secondary-darken {
+  background: #9c0c3f; }
+
+.brand-color-secondary-lighten {
+  background: #f15089; }
 
 .content-color-default {
   background: #17334f; }
@@ -713,9 +725,13 @@ h6 {
   font-size: 12px;
   margin: .5em 0; }
 
+p {
+  margin: 1.5em 0; }
+
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background: #ffffff; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -808,7 +824,7 @@ pre {
   -ms-box-shadow: 0 7px 20px 3px #bbc2c9;
   -o-box-shadow: 0 7px 20px 3px #bbc2c9; }
   pre::-webkit-scrollbar-track {
-    background: rgba(136, 153, 170, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 0 0 4px 4px; }
   pre::-webkit-scrollbar {
     height: 7px;
@@ -831,6 +847,69 @@ code {
     content: counter(line);
     padding: 0 .25em;
     margin-right: .5em;
+    color: #5887f5; }
+
+button, .btn {
+  font-size: 16px;
+  line-height: 1.428;
+  font-size: 16px;
+  position: relative;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.75em 1.75em;
+  margin: 10px 0;
+  border-radius: 50px;
+  display: inline-block;
+  color: #8899aa;
+  background: #f2f2f2;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s; }
+  button:hover, .btn:hover {
+    background: #bbc2c9; }
+
+.btn-primary {
+  color: #ffffff;
+  background: #5887f5; }
+  .btn-primary:hover {
+    background: #1053f1; }
+
+.btn-secondary {
+  color: #ffffff;
+  background: #e3125c; }
+  .btn-secondary:hover {
+    background: #9c0c3f; }
+
+a.btn, a.btn-primary, a.btn-secondary, button > a, a > button {
+  text-decoration: none; }
+
+a {
+  text-decoration: underline;
+  color: #5887f5;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s; }
+  a:hover {
+    color: #a0bbf9; }
+  a.link-secondary {
+    color: #e3125c; }
+    a.link-secondary:hover {
+      color: #f15089; }
+
+p > a {
+  color: #8899aa; }
+  p > a:hover {
     color: #5887f5; }
 
 /*# sourceMappingURL=sassted.css.map */
