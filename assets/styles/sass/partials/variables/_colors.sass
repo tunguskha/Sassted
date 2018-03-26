@@ -1,55 +1,71 @@
-// Base color variables
-$primary-color-base: #7f00ff
-$primary-color-lighten-base: lighten($primary-color-base, 10%)
-$primary-color-darken-base: darken($primary-color-base, 10%)
+// Brand colors
+$brand-color-primary: #5887f5 !default
+$brand-color-secondary: #e3125c !default
 
-$secondary-color-base: #FDAD18
-$secondary-color-lighten-base: lighten($secondary-color-base, 10%)
-$secondary-color-darken-base: darken($secondary-color-base, 10%)
+// Content colors (text)
+$content-color-default: #17334f !default
+$content-color-contrast: darken($content-color-default, 5%) !default
+$content-color-subtle: scale-color($content-color-default, $saturation: -70%, $lightness: 50%) !default
+$content-color-nonessential: scale-color($content-color-default, $saturation: -80%, $lightness: 70%) !default
 
-$text-color-base: #50596c
-$text-color-lighten-base: lighten($text-color-base, 30%)
-$text-color-darken-base: darken($text-color-base, 30%)
-
-$white-color-base: #ffffff
-$light-color-base: #efefef
-$dark-color-base: #3F4253
+// Theme colors
+$theme-color-0: #ffffff !default
+$theme-color-1: darken($theme-color-0, 5%) !default
+$theme-color-2: darken($theme-color-0, 10%) !default
+$theme-color-3: darken($theme-color-0, 20%) !default
 
 
-// Transform base Sass var to CSS var
-html, :root
-  --white-color: $white-color-base
-  --primary-color: $primary-color-base
-  --primary-color-lighten: $primary-color-lighten-base
-  --primary-color-darken: $primary-color-darken-base
 
-  --secondary-color: $secondary-color-base
-  --secondary-color-lighten: $secondary-color-lighten-base
-  --secondary-color-darken: $secondary-color-darken-base
+// COLORS CLASSES BACKGROUND
+// Brand colors Classes
+.brand-color-primary
+  background: $brand-color-primary
+.brand-color-secondary
+  background: $brand-color-secondary
 
-  --text-color: $text-color-base
-  --text-color-lighten: $text-color-lighten-base
-  --text-color-darken: $text-color-darken-base
+// Content colors Classes
+.content-color-default
+  background: $content-color-default
+.content-color-contrast
+  background: $content-color-contrast
+.content-color-subtle
+  background: $content-color-subtle
+.content-color-nonessential
+  background: $content-color-nonessential
 
-  --pink: #e100ff
-  --pink-secondary: #FC8888
+// Theme colors Classes
+.theme-color-0
+  background: $theme-color-0
+.theme-color-1
+  background: $theme-color-1
+.theme-color-2
+  background: $theme-color-2
+.theme-color-3
+  background: $theme-color-3
 
-// Appeling transformed Sass var from CSS var
-$primary-color: var(--primary-color)
-$primary-color-lighten: var(--primary-color-lighten)
-$primary-color-darken: var(--primary-color-darken)
+// COLORS CLASSES TEXT
+// Brand colors Classes
+.brand-color-primary
+  color: $brand-color-primary
+.brand-color-secondary
+  color: $brand-color-secondary
 
-$secondary-color: var(--secondary-color)
-$secondary-color-lighten: var(--secondary-color-lighten)
-$secondary-color-darken: var(--secondary-color-darken)
+// Content colors Classes
+.content-color-default
+  color: $content-color-default
+.content-color-contrast
+  color: $content-color-contrast
+.content-color-subtle
+  color: $content-color-subtle
+.content-color-nonessential
+  color: $content-color-nonessential
 
-$text-color: var(--text-color)
-$text-color-lighten: var(--text-color-lighten)
-$text-color-darken: var(--text-color-darken)
-
-$white-color: var(--white-color)
-$light-color: var(--light-color)
-$dark-color: var(--dark-color)
-
-$purple: var(--purple)
-$pink: var(--pink)
+// Theme colors Classes
+.theme-color-0
+  color: $theme-color-0
+.theme-color-1
+  color: $theme-color-1
+.theme-color-2
+  color: $theme-color-2
+.theme-color-3
+  color: $theme-color-3

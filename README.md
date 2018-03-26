@@ -2,8 +2,6 @@
 
 Working on a personal framework based on Sass.
 
-❗️ IE DOES NOT SUPPORT CSS VARIABLES ❗️
-
 ---
 
 ### Download Sassted
@@ -33,8 +31,6 @@ Sassted
 |   |   └── init.js
 |   └── 📂 styles
 |       └── 📂 css
-|       |   └── grid.css
-|       |   └── normalize.css
 |       |   └── sassted.css
 |       |   └── sassted.css.map
 |       |   └── sassted.min.css
@@ -43,11 +39,11 @@ Sassted
 |           |   └── 📂 variables
 |           |   |   └── _colors.sass
 |           |   |   └── _typography.sass
-|           |   └── _blockquote.sass
-|           |   └── _buttons.sass
+|           |   └── _beacon.sass
+|           |   └── _grid.sass
 |           |   └── _init.sass
 |           |   └── _mixins.sass
-|           |   └── _pre-code.sass
+|           |   └── _reset.sass
 |           |   └── _utilities.sass
 |           └── sassted.sass
 |           
