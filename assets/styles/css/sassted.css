@@ -693,36 +693,46 @@ table {
 body {
   color: #17334f;
   font-size: 16px;
-  line-height: 1.428;
+  line-height: 1.55;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   -webkit-tap-highlight-color: transparent; }
 
-h1, h2, h3, h4, h5 {
+h1 {
+  font-size: 42px;
   font-weight: 500;
   margin: .5em 0; }
 
-h1 {
-  font-size: 42px; }
-
 h2 {
-  font-size: 36px; }
+  font-size: 36px;
+  font-weight: 500;
+  margin: .5em 0; }
 
 h3 {
-  font-size: 28px; }
+  font-size: 28px;
+  font-weight: 500;
+  margin: .5em 0; }
 
 h4 {
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 500;
+  margin: .5em 0; }
 
 h5 {
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: 500;
+  margin: .5em 0; }
+
+h6 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: .5em 0; }
 
 h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #bbc2c9;
   letter-spacing: 1px;
-  font-size: 12px;
   margin: .5em 0; }
 
 p {
@@ -851,7 +861,7 @@ code {
 
 button, .btn {
   font-size: 16px;
-  line-height: 1.428;
+  line-height: 1.55;
   font-size: 16px;
   position: relative;
   outline: none;
